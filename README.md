@@ -20,4 +20,4 @@ Advertising Temperature Data from AM2302/DHT22 with micropython on ESP8266 (Node
 ## Extra (Monitoring)
 
 * You can use any monitoring application (https://www.zabbix.com etc.) to monitor trends or trigger alarms.
-* Use HTPP Agent method and JSON preproccessing like "$.sensors[0].temperature" and "$.sensors[1].temperature" to get seperate sensor values.
+* Use HTPP Agent method and JSON preproccessing like "$.sensors[0].temperature" and "$.sensor[0].temperature" or "$.sensor[0].humidity" to get seperate sensor values.
